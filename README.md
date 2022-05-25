@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## 基于 JavaScript 实现线性规划问题的求解
 
-You can use the [editor on GitHub](https://github.com/SakurabaSeira/Simplex-Online/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+运筹学结课论文《基于 JavaScript 实现线性规划问题的求解》中程序的源代码和实现网页。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+点击这里前往[线性规划在线求解](https://sakurabaseira.github.io/Simplex-Online/index.html)。
 
-### Markdown
+### 输入格式范例
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+以下是输入线性规划问题的范例。
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+max=2*x1+3*x2
+x1+2*x2<=8
+4*x1<=16
+4*x2<=12
 
-- Bulleted
-- List
+**输出结果：x1=4; x2=2, max z=14**
 
-1. Numbered
-2. List
+max=9*甲+6*乙+11*丙+8*丁
+甲+乙+丙+丁<=480
+4*甲+8*乙+2*丙+5*丁<=2400
+4*甲+2*乙+5*丙+5*丁<=2000
+6*甲+4*乙+8*丙+4*丁<=3000
 
-**Bold** and _Italic_ and `Code` text
+**输出结果：甲=400; 乙=0; 丙=70; 丁=10, max z=4450**
 
-[Link](url) and ![Image](src)
+min=😅+2*🥵
+😅+🥵<=2
+😅+🥵>=1
+
+**输出结果：😅=1; 🥵=0, min z=1**
+
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SakurabaSeira/Simplex-Online/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
