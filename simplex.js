@@ -119,7 +119,7 @@ function updateMartix(loosen,index1,index2){
 function getBizhiNum(cb,loosen,index,maxIndex){
 	var num=loosen[index][0][maxIndex];
 	//若系数为负 则该行不可能被换出 返回null
-	if(num<=0) return null;
+	if(num<=10**(-10)) return null;
 	return loosen[index][1]/num;
 };
 //获取检验数σ
